@@ -14,6 +14,7 @@ function App() {
       <Home 
         name={user.name}
         color={user.color}
+        city={user.city}
       />
       <About 
         bio={user.bio}
